@@ -28,12 +28,10 @@ const App = () => {
     <div className='categories-container'>
       {categories.map(({ id, title }) => (
         <div className='category-container' key={id}>
-          <div className='background-image'>
-            <div />
-            <div className='category-body-container'>
-              <h2>{title}</h2>
-              <p>Show Now</p>
-            </div>
+          <div className='background-image'></div>
+          <div className='category-body-container'>
+            <h2>{title}</h2>
+            <p>Show Now</p>
           </div>
         </div>
       ))}
